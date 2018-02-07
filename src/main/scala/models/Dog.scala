@@ -1,3 +1,4 @@
 package scala.models
 
-class Dog(override val name: String) extends Pet
+case class Dog(name: String) extends Pet
+
